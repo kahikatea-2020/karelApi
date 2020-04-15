@@ -1,7 +1,11 @@
 import React from 'react'
 import request from 'superagent'
 
-const apiURL = 'https://ron-swanson-quotes.herokuapp.com/v2/quotes'
+//CLIENT
+// const apiURL = 'https://ron-swanson-quotes.herokuapp.com/v2/quotes'
+
+//SERVER
+const apiURL = 'http://localhost:3000/swanson'
 
 
 class Swansonism extends React.Component {
